@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 public class Controller {
     int moon = 384403;
 
-    
+
     @FXML
     public void handleCloseButtonAction(ActionEvent event) {
         ((Stage) (((Button) event.getSource()).getScene().getWindow())).close();

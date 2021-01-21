@@ -14,11 +14,10 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("ex2.fxml"));
-        primaryStage.setTitle("Exercise 1");
+        primaryStage.setTitle("Exercise 2");
         primaryStage.setScene(new Scene(root, 500, 250));
         primaryStage.show();
-        Text txt = new Text();
-        txt.setText("Hello World");
+
     }
 
 
